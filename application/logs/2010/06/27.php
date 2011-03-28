@@ -1,0 +1,18 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2010-06-27 00:04:34 --- ERROR: ErrorException [ 8 ]: Undefined variable: format ~ APPPATH/views\places.php [ 2 ]
+2010-06-27 12:59:59 --- ERROR: ReflectionException [ -1 ]: Class controller_reservation does not exist ~ SYSPATH/classes\kohana\request.php [ 863 ]
+2010-06-27 13:01:07 --- ERROR: ReflectionException [ 0 ]: Method action_24 does not exist ~ SYSPATH/classes\kohana\request.php [ 881 ]
+2010-06-27 13:01:44 --- ERROR: ErrorException [ 8 ]: Undefined index: controller ~ SYSPATH/classes\kohana\request.php [ 552 ]
+2010-06-27 13:02:06 --- ERROR: ReflectionException [ 0 ]: Method action_24 does not exist ~ SYSPATH/classes\kohana\request.php [ 881 ]
+2010-06-27 16:29:47 --- ERROR: ErrorException [ 8 ]: Undefined property: Controller_Reservation::$ticekt ~ APPPATH/classes\controller\reservation.php [ 20 ]
+2010-06-27 16:33:33 --- ERROR: ErrorException [ 1 ]: Using $this when not in object context ~ APPPATH/views\places.php [ 37 ]
+2010-06-27 19:55:37 --- ERROR: ErrorException [ 1 ]: Class 'Validation' not found ~ APPPATH/classes\controller\reservation.php [ 30 ]
+2010-06-27 19:59:25 --- ERROR: ErrorException [ 8 ]: Undefined variable: errors ~ APPPATH/views\places.php [ 6 ]
+2010-06-27 20:01:37 --- ERROR: ErrorException [ 4096 ]: Argument 1 passed to Controller_Reservation::check_place_amount() must be an instance of Validation, instance of Validate given ~ APPPATH/classes\controller\reservation.php [ 43 ]
+2010-06-27 20:02:10 --- ERROR: ErrorException [ 8 ]: Undefined index:  type ~ APPPATH/classes\controller\reservation.php [ 44 ]
+2010-06-27 20:03:32 --- ERROR: ErrorException [ 8 ]: Undefined index:  type ~ APPPATH/classes\controller\reservation.php [ 44 ]
+2010-06-27 22:53:55 --- ERROR: ErrorException [ 1 ]: Call to undefined method Route::params() ~ APPPATH/classes\controller\reservation.php [ 42 ]
+2010-06-27 22:54:08 --- ERROR: ErrorException [ 1 ]: Call to undefined method Route::param() ~ APPPATH/classes\controller\reservation.php [ 42 ]
+2010-06-27 22:55:34 --- ERROR: ErrorException [ 1 ]: Call to undefined method Route::param() ~ APPPATH/classes\controller\reservation.php [ 42 ]
+2010-06-27 22:56:55 --- ERROR: ErrorException [ 1 ]: Call to undefined method Route::param() ~ APPPATH/classes\controller\reservation.php [ 42 ]

@@ -1,0 +1,4 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2010-11-27 00:12:51 --- ERROR: Database_Exception [ 1062 ]: Duplicate entry '4-1' for key 'PRIMARY' [ INSERT INTO `roles_users` (`user_id`, `role_id`) VALUES ('4', '1') ] ~ MODPATH/database\classes\kohana\database\mysql.php [ 174 ]
+2010-11-27 00:53:12 --- ERROR: Database_Exception [ 1452 ]: Cannot add or update a child row: a foreign key constraint fails (`kinomatix`.`news`, CONSTRAINT `news_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) [ INSERT INTO `news` (`user_id`, `title`, `content`, `created`) VALUES ('', 'Nowe kino 3D w Kinomatix', 'Otworzyliśmy kino 3D w Kielcach!', 1290815592) ] ~ MODPATH/database\classes\kohana\database\mysql.php [ 174 ]

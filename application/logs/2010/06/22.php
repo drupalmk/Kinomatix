@@ -1,0 +1,16 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2010-06-22 10:41:22 --- ERROR: ReflectionException [ 0 ]: Method action_index does not exist ~ SYSPATH/classes\kohana\request.php [ 881 ]
+2010-06-22 10:42:42 --- ERROR: ReflectionException [ -1 ]: Class controller_shows does not exist ~ SYSPATH/classes\kohana\request.php [ 863 ]
+2010-06-22 10:43:08 --- ERROR: ReflectionException [ -1 ]: Class controller_shows does not exist ~ SYSPATH/classes\kohana\request.php [ 863 ]
+2010-06-22 10:43:10 --- ERROR: ReflectionException [ -1 ]: Class controller_shows does not exist ~ SYSPATH/classes\kohana\request.php [ 863 ]
+2010-06-22 10:43:22 --- ERROR: ReflectionException [ 0 ]: Method action_index does not exist ~ SYSPATH/classes\kohana\request.php [ 881 ]
+2010-06-22 10:51:37 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for Controller_Admin_Shows::action_edit() ~ APPPATH/classes\controller\admin\shows.php [ 16 ]
+2010-06-22 10:52:37 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for Controller_Admin_Shows::action_edit() ~ APPPATH/classes\controller\admin\shows.php [ 16 ]
+2010-06-22 10:52:44 --- ERROR: ErrorException [ 2 ]: Missing argument 1 for Controller_Admin_Shows::action_edit() ~ APPPATH/classes\controller\admin\shows.php [ 16 ]
+2010-06-22 10:53:11 --- ERROR: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=< '1277287200'' at line 1 [ SELECT COUNT(*) AS `records_found` FROM `shows` WHERE `start_date` >= '1277287200' AND `start_date` =< '1277287200' ] ~ MODPATH/database\classes\kohana\database\mysql.php [ 174 ]
+2010-06-22 10:55:28 --- ERROR: ErrorException [ 8 ]: Undefined variable: date_type ~ APPPATH/classes\model\show.php [ 104 ]
+2010-06-22 15:17:08 --- ERROR: ErrorException [ 8 ]: Undefined property: Controller_Admin_Shows::$movie ~ APPPATH/classes\controller\admin\shows.php [ 29 ]
+2010-06-22 15:25:36 --- ERROR: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH/classes\model\show.php [ 83 ]
+2010-06-22 18:44:57 --- ERROR: ErrorException [ 2 ]: preg_match() [function.preg-match]: Compilation failed: unmatched parentheses at offset 62 ~ SYSPATH/classes\kohana\route.php [ 209 ]
+2010-06-22 18:45:01 --- ERROR: ErrorException [ 2 ]: preg_match() [function.preg-match]: Compilation failed: unmatched parentheses at offset 62 ~ SYSPATH/classes\kohana\route.php [ 209 ]
